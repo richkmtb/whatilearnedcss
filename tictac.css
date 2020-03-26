@@ -1,0 +1,25 @@
+body {
+	width: 100%
+	align-content: center;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.lr {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.tb {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+

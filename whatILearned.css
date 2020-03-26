@@ -1,0 +1,114 @@
+body {
+	background-color: rgb(202, 232, 202);
+	margin-left:auto; 
+    margin-right:auto;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+#wil1 {
+	background-color: rgb(232, 232, 143);
+	padding: 20px 0 20px;
+	border: 2px solid rgb(190, 190, 84);
+	list-style-position: inside;
+}
+
+#wil1 li:nth-child(odd) {
+	color: green;
+}
+
+
+#wil1 li:nth-child(even) {
+	color: blue;
+}
+
+#bd1 {
+	border: 2px solid red;
+}
+
+#todoLink {
+	font-size: 30px;
+}
+
+#wil1 li:last-of-type {
+	margin-top: 20px;
+}
+
+/*Selectors Table*/
+table {
+	border: 2px solid rgb(0,0,0);
+	margin-left:auto; 
+    margin-right:auto;
+    width: 100%;
+    table-layout: fixed; /* optional, for equal spacing */
+    font-size: 18px;
+}
+
+th, td {
+	border: 1px solid black;
+	word-wrap: break-word;
+}
+
+tbody {
+	text-align: left;
+}
+
+.color {
+	color: purple;
+}
+
+#thead {
+	background-color: rgb(161, 213, 161);
+}
+
+#tex {
+	background-color: rgb(221, 241, 182);
+}
+
+#tinfo {
+	background-color: rgb(255, 255, 193);
+}
+
+#spec {
+	text-align: center;
+	background-color: rgb(237, 247, 215);
+	border: 2px solid rgb(232, 232, 143);
+	margin-top: 20px;
+	width: 50%;
+	display: inline-block;
+}
+
+#spec li {
+	list-style-position: inside;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+a[href="selectorsExercise.html"] {
+	font-size: 30px;
+
+}
+
+a[href="selectorsExercise.html"]:visited {
+	color: orange;
+}
+
+button a {
+	text-decoration: none;
+}
+
+.boxmodel {
+	text-align: left;
+	background: rgba(183, 245, 128, 0.9);
+	border: 2px solid rgb(114, 222, 17);
+}
+
+#tictac {
+	font-size: 2em;
+	text-align: center;
+}
